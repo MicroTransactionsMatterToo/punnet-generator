@@ -10,10 +10,12 @@ setup(name="pungen",
       description="A simple program to generate Punnet Squares from CLI",
       scripts=["bin/pungen"],
       packages=find_packages(),
+      url="https://github.com/MicroTransactionsMatterToo/punnet-generator",
       classifiers=[
-          "Programming Language :: Python :: Python 3 :: Only",
+          "Programming Language :: Python :: 3 :: Only",
           "Topic :: Scientific/Engineering",
           "Topic :: Utilities",
           "Environment :: Console",
-          "Development Status :: 5 - Production/Stable"
+          "Development Status :: 5 - Production/Stable",
+          "License :: OSI Approved :: Apache Software License"
       ])
